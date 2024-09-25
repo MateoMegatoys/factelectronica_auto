@@ -12,7 +12,7 @@ function App() {
   };
 
   const handleRevisarClick = () => {
-
+    
 
     if (inputValue.trim()) {
       const facturasArray = inputValue.split('\n').map(factura => parseInt(factura.trim()));
